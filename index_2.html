@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/carro-alt.png" type="image/x-icon">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <span id="openNav" class="open-sidenav" onclick="openNav()">&#9776</span>
+            <h1>CarPage</h1>
+            <a href="">Youtube</a>
+            <a href="">WebMotors</a>
+            <a href="">Pesquisa</a>
+        </nav>
+        <!-- SIDE NAV -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" onclick="closeNav()">&times; Voltar</a>
+          <a href="#">Página 1</a>
+          <a href="#">Página 2</a>
+          <a href="#">Página 3</a>
+        </div>
+    </header>
+    <main>
+        <h2 class="central-title">Categorias</h2>
+        <p class="underline-test">------------</p>
+        <div class="category-container">
+            <div class="card car-category" style="width: 15rem; font-size: 20px;">
+                <img class="card-img-top car-img-main" src="img/argo.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Hatches</h5>
+                  <ul>
+                    <li>Subcompactos</li>
+                    <li>Compactos</li>
+                    <li>Médios</li>
+                  </ul>
+                </div>
+                <a href="hatch.html" class="btn btn-primary more-button">Mais sobre</a>
+            </div>
+            <div class="card car-category" style="width: 15rem; font-size: 20px;">
+                <img class="card-img-top car-img-main" src="img/corolla.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sedans</h5>
+                  <ul>
+                    <li>Compactos</li>
+                    <li>Médios</li>
+                    <li>Grandes</li>
+                  </ul>
+                </div>
+                <a href="sedan.html" class="btn btn-primary more-button">Mais sobre</a>
+            </div>
+            <div class="card car-category" style="width: 15rem; font-size: 20px;">
+                <img class="card-img-top car-img-main" src="img/s10.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Picapes</h5>
+                  <ul>
+                    <li>Pequenas</li>
+                    <li>Médias</li>
+                    <li>Grandes</li>
+                  </ul>
+                </div>
+                <button href="#" class="btn btn-primary more-button" disabled>Mais sobre</button>
+            </div>
+            <div class="card car-category" style="width: 15rem; font-size: 20px;">
+                <img class="card-img-top car-img-main" src="img/sw4.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">SUVs</h5>
+                  <ul>
+                    <li>Crossovers</li>
+                    <li>Médios</li>
+                    <li>Grandes</li>
+                  </ul>
+                </div>
+                <button href="#" class="btn btn-primary more-button" disabled>Mais sobre</button>
+            </div>
+            <div class="card car-category" style="width: 15rem; font-size: 20px;">
+                <img class="card-img-top car-img-main" src="img/conversivel.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Conversíveis</h5>
+                  <ul>
+                    <li>Cabrios</li>
+                    <li>Spiders</li>
+                  </ul>
+                </div>
+                <button href="#" class="btn btn-primary more-button" disabled>Mais sobre</button>
+            </div>
+        </div>
+    </main>
+    <!-- <footer>
+        <h3>Car page</h3>
+        <p>2023 &copy eller</p>
+        <p>Valeuuu!</p>
+    </footer> -->
+</body>
+</html>
