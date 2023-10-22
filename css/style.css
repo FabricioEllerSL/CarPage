@@ -219,7 +219,7 @@ footer{
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     color: #fff;
     display: block;
     transition: 0.3s;
@@ -227,7 +227,17 @@ footer{
 
 /* Estilos para os links da barra de navegação lateral ao passar o mouse */
 .sidenav a:hover {
-    color: #c2c2c2;
+    background-color: #813334;
+    font-size: 25px;
+
+}
+
+.sidenav p{
+    padding-left: 30px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 27px;
+    background-color: #813334;
 }
 
 /* Estilos para o botão que abre a barra de navegação lateral */
