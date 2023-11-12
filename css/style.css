@@ -86,8 +86,15 @@ section .car{
 footer{
     display: flex;
     background-color: #802D2E;
+    justify-content: space-around;
+    align-items: center;
     color: #fff;
     width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /* aside */
