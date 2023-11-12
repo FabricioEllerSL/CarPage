@@ -381,3 +381,22 @@ a.disabled {
     outline-offset: 0;
 }
 
+
+/* Inserção de modal no botão Mais Sobre */
+
+.hidden{
+    display: none;
+}
+
+.close-modal{
+    color: #fff;
+    cursor: pointer;
+}
+.close-modal2{
+    color: #fff;
+    cursor: pointer;
+}
+
+.category-container .hatch{
+    margin-top: 20px;
+}
