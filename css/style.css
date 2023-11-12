@@ -84,11 +84,9 @@ section .car{
 /* footer */
 
 footer{
+    display: flex;
     background-color: #802D2E;
     color: #fff;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
@@ -172,6 +170,11 @@ footer{
 }
 
 /* ----------------------NEW HOME PAGE CSS-------------------------------- */
+
+a.disabled {
+    background-color: #333 !important;
+}
+
 
 .central-title{
     text-align: center;
