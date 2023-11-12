@@ -11,4 +11,8 @@ function closeNav() {
 
 // MEUS CODIGOS
 
+const submitButton = document.querySelector(".submitFormButton");
 
+submitButton.addEventListener("click", (e) => {
+    e.preventDefault();
+})
